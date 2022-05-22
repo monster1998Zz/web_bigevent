@@ -61,3 +61,7 @@ function getUserInfo() {
     }
   };
 }
+
+function change() {
+  $("#art_list").addClass("layui-this").next().removeClass("layui-this");
+}
